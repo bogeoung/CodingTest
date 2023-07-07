@@ -20,7 +20,7 @@ def solution(n, arr):
         if stack_arr[-1] == num:
             stack_arr.pop()
             ans.append("-")
-        else: # top(arr[-1])보다 num이 더 큰경우
+        else: # stack_arr[-1]이 num(뽑아야 할 숫자가)보다 큰경우
             print("NO")
             return
 
